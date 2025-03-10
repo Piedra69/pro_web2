@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="elementoPadre">elementopadre<div id="elementoHijo">elemento</div></div>
+    <script>
+
+const elementoHijo= document.getElementById('elementoHijo')
+elementoHijo.addEventListener('click',(evento)=>{ 
+            evento.preventDefault()
+            alert('evento hijo')
+        }
+    )
+    const elementoPadre= document.getElementById('elementoPadre')
+elementoPadre.addEventListener('click',(evento)=>{ 
+            evento.preventDefault()
+            alert('evento Padre')
+        }
+    )
+    </script>
+</body>
+</html>
