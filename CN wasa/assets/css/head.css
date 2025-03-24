@@ -1,0 +1,36 @@
+.head{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    border-bottom: 1px solid #585858;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color:#585858;
+    justify-content: space-between;
+    border-radius: 25px;
+    position: fixed;
+    top: 0;
+
+}
+.head__logo{
+height: 75px;
+margin-bottom: 1rem;
+margin-left: 1rem;
+margin-top: 1rem;
+align-items: center;
+}
+
+.head_nav{
+    text-align: center;
+}
+.head__link{
+    font-family: 'Montserrat',sans-serif;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
