@@ -1,0 +1,134 @@
+:root {
+    --primary-color: #000000;
+    --box-color: #999999;
+    --secondary-color: #881616;
+    --accent-color: #ff0000;
+    --background-color: #30373e;
+    --text-color: #000000;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 6px rgba(99, 96, 96, 0.1);
+    --transition: all 0.3s ease;
+  }
+   
+  body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+  }
+   
+  #container {        
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 25px;
+  }
+   
+  h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 10px;
+  }
+
+   
+  input {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    transition: var(--transition);
+    outline: none;
+  }
+   
+  input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px #881616;
+  }
+   
+  button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: var(--transition);
+  }
+   
+  button:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+  }
+   
+  button:active {
+    transform: translateY(0);
+  }
+   
+  #addBtn {
+    width: 25%;
+    margin-left: 5%;
+  }
+   
+  #controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+   
+  #controls button {
+    flex: 1;
+    margin: 0 5px;
+  }
+   
+  ul#taskList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+   
+  .item {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #757676;
+    border-left: 4px solid var(--primary-color);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+   
+  .item:hover {
+    background-color: #fbffff92;
+    transform: translateX(5px);
+  }
+   
+  .relleno {
+    background-color: #ef0404;
+    border-left-color: #ff0000;
+  }
+   
+  .tachado {
+    text-decoration: line-through;
+    color: #2e002d;
+ 
+  }
+   
+  #output {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: var(  --box-color);
+    color: #757676;
+    border-radius: var(--border-radius);
+    text-align: center;
+    font-weight: bold;
+  }
+   

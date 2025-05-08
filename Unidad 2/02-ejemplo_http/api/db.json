@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": "1744084926865",
+      "titulo": "Post Actualizado",
+      "descripcion": "Este post ha sido actualizado con PUT",
+      "fecha": "2025-04-09"
+    },
+    {
+      "id": "1744084935991",
+      "titulo": "Nuevo Post Creado",
+      "descripcion": "Este es un nuevo post creado con POST",
+      "fecha": "2025-04-08"
+    },
+    {
+      "id": "1744086118684",
+      "titulo": "Nuevo Post Creado",
+      "descripcion": "Este es un nuevo post creado con POST",
+      "fecha": "2025-04-08"
+    },
+    {
+      "id": "1744086118974",
+      "titulo": "Nuevo Post Creado",
+      "descripcion": "Este es un nuevo post creado con POST",
+      "fecha": "2025-04-08"
+    },
+    {
+      "id": "1744205701527",
+      "titulo": "Nuevo Post Creado",
+      "descripcion": "Este es un nuevo post creado con POST",
+      "fecha": "2025-04-09"
+    }
+  ],
+  "tareas": [
+    {
+      "id": "1744205739863",
+      "tarea": "gg",
+      "fecha": "2025-04-10",
+      "descripcion": "xd",
+      "nombre": "sebas",
+      "valor": -8
+    }
+  ]
+}

@@ -1,16 +1,20 @@
-git{
+{
   "posts": [
     {
       "id": "2",
       "titulo": "Nuevo Post Creado",
       "descripcion": "Econtenido ",
-      "fecha": "2025-03-27"
+      "fecha": "2025-03-27",
+        "nombre": "Pedro",
+      "numero": "34"
     },
     {
       "id": "1",
       "titulo": "Nuevo Post Creado",
       "descripcion": "CONTENIDO",
-      "fecha": "2025-03-27"
+      "fecha": "2025-03-27",
+      "nombre": "Juan",
+      "numero": "33"
     }
   ]
 }

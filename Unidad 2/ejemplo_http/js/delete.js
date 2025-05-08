@@ -1,15 +1,15 @@
-const deleteData=()=>{
-    fetch(`${API_URL}/1`,{
-        method:"DELETE",
+const deleteData = (id) => { 
+    fetch(`${API_URL}/${id}`, { 
+        method: "DELETE",
     })
-    .then(response =>{
-        if(!response.ok){
-            throw new Error(`ERROR EN LA RESPUESTA ESTADO:${response.status}`)
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`ERROR EN LA RESPUESTA ESTADO: ${response.status}`);
         }
-       showResult({
-            message:"el post con el id 1 fue eliminado",
-            status:response.status
-       });
-    
-}).catch(error => showResult(error.message,true));
+        showResult({
+            message: `El post con el id ${id} fue eliminado`, 
+            status: response.status
+        });
+    })
+    .catch(error => showResult(error.message, true));
 };

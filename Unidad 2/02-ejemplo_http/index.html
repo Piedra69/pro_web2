@@ -21,23 +21,16 @@
         <div class="controls">
             <button class="btn btn-get" onclick="getData()">Obtener Posts (GET)</button>
             <button class="btn btn-post" onclick="postData()">Crear Post (POST)</button>
-            <button class="btn btn-put" onclick="putData()">Actualizar Post 1 (PUT)</button>
-            <button class="btn btn-delete" onclick="deleteData()">Eliminar Post 1 (DELETE)</button>
-            <div class="controls">
-                <button class="btn btn-get" onclick="getData()">Obtener Posts (GET)</button>
-                <button class="btn btn-post" onclick="postData()">Crear Post (POST)</button>
-                <button class="btn btn-put" onclick="putData()">Actualizar Post 1 (PUT)</button>
-                <button class="btn btn-delete" onclick="deleteData()">Eliminar Post 1 (DELETE)</button>
-            
+            <button class="btn btn-put" onclick="putData()">Actualizar Post (PUT)</button>
+            <button class="btn btn-delete" onclick="deleteData()">Eliminar Post (DELETE)</button>
+        </div>
 
-                <div class="inputs">
-                    <input type="number" id="input1" placeholder="Ingrese Numero de post" />
-                    <input type="text" id="input2" placeholder="Nombre de post" />
-                    <input type="text" id="input3" placeholder="Titulo Post" />
-                    <input type="text" id="input3" placeholder="Descripcion " />
-                    <input type="text" id="input3" placeholder="Fecha" />
-                </div>
-            </div>
+        <div class="results">
+            <h3>Resultados:</h3>
+            <div id="status"></div>
+            <pre id="result">RESULTADO..</pre>
+        </div>
+    </div>
 
     <script src="js/get.js"></script>
     <script src="js/post.js"></script>
