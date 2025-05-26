@@ -1,0 +1,36 @@
+{
+  "autitos": [
+    {
+      "id": "6dd9c7a3-cdc0-4d83-9e2d-57989841b0cf",
+      "nombre": "helicopter helicopter",
+      "precio": 30,
+      "caja": "A",
+      "gestion": "2025",
+      "color": "azul"
+    },
+    {
+      "nombre": "fulanito",
+      "precio": 12,
+      "caja": "A",
+      "gestion": 2025,
+      "color": "amarillo",
+      "id": "57a6356a-80f4-4a61-923d-3fccd275b440"
+    },
+    {
+      "nombre": "presi",
+      "precio": 123,
+      "caja": "A",
+      "gestion": 2025,
+      "color": "guindo",
+      "id": "85748be2-8736-41e4-81c7-ab1a2251bd29"
+    },
+    {
+      "nombre": "presi",
+      "precio": 120,
+      "caja": "B",
+      "gestion": 2025,
+      "color": "azul",
+      "id": "3eb798e9-45fe-4bc6-beeb-f4b6cedbbc86"
+    }
+  ]
+}

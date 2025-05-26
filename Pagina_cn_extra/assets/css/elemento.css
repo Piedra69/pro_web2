@@ -1,0 +1,91 @@
+/* Paleta de Colores ROOT */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --color-FondoCuerpo: #009bdf;
+    --color-FondoCuerpo2: #c96bee;
+    --color-Texto: #ffffff;
+    --color-Subtitulos: #05366e;
+	--color-Titulos: #000000;
+    --color-Fondo: #ffea00;
+    --color-botones: #ed0080; 
+    --color-menu: #891f9e;
+    --color-descripciones: #512992; 
+    --color-cajitas: #09445e;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+.elemento {
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* ESTILOS */
+    background-color: var(--color-FondoCuerpo2);
+    padding: 2rem;
+}
+
+.elemento__titulo {
+    /* ESTILOS */
+    font-family: var(--fuente-montserrat);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: var(--color-Subtitulos);
+    background-color: var(--color-Fondo);
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid var(--color-descripciones);
+}
+
+.elemento__figura {
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* ESTILOS */
+    margin-bottom: 2rem;
+}
+
+.elemento__figura--imagen {
+    /* ESTILOS */
+    width: 50vw;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    height: 21rem;
+    width: 25rem;
+    border-radius:50px;
+}
+
+.elemento__figura--texto {
+    /* ESTILOS */
+    font-family: var(--fuente-montserrat);
+    font-weight: 500;
+    font-size: 2rem;
+    background-color: var(--color-descripciones);
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid var(--color-descripciones);
+}
+
+.elemento__boton {
+    /* FLEXBOX */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* ESTILOS */
+    font-family: var(--fuente-montserrat);
+    background-color: var(--color-botones);
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 13rem;
+    border: 3px solid var(--color-Fondo);
+}

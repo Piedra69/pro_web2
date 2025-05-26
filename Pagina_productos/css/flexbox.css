@@ -1,0 +1,109 @@
+/* HEADER */
+
+.headerPrincipal .container {
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.headerPrincipal-titulo{
+	flex-direction: row;
+    align-items: center;
+}
+
+.headerPrincipal-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headerPrincipal-nav{
+	flex-direction: row;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerPrincipal-nav-link {
+    display: flex;
+}
+
+/* MAIN */
+
+.contenidoPrincipal .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenidoPrincipal-productos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contenidoPrincipal-productos-link{
+    display: flex;
+}
+
+.videoSobre .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.videoSobre-sobre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* FOOTER */
+
+.rodapePrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .rodapePrincipal-navMap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

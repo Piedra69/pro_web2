@@ -1,0 +1,50 @@
+{
+  "perfil": [
+    {
+      "nombre": "fulanitod",
+      "email": "ignacioadrianlaymedelgado@gmail.com",
+      "id": "0d333e56-e73e-40ef-8dfd-29cb3559591d"
+    },
+    {
+      "id": "3493ea3e-0c46-4101-9826-621026ff66d6",
+      "nombre": "hola",
+      "email": "ignacioadrianlaymedelgado@gmail.com"
+    },
+    {
+      "id": "3935bc4e-f244-4010-9552-c12022fef4cf",
+      "nombre": "DARK",
+      "email": "adrian.ignacio.delgad@gmial.com"
+    },
+    {
+      "id": "5b288299-2e76-4684-a1c4-cccbe40070b6",
+      "nombre": "luzyano",
+      "email": "adrian.ignacio.delgad@gmial.com"
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Croquetas Premium",
+      "precio": 26.04,
+      "descripcion": "el tiempo hizo lo suyo y comprendi",
+      "id": "1"
+    },
+    {
+      "nombre": "DARK",
+      "precio": 12,
+      "descripcion": "voy de nuevo recordando lo que soy",
+      "id": "2d864962-543f-49dd-bfb9-74122dc327e5"
+    },
+    {
+      "nombre": "presi",
+      "precio": 45,
+      "descripcion": "cuando estoy apunto de olvidarte",
+      "id": "a2be64d1-52ea-43ab-ab08-a2ee83cd2ca4"
+    },
+    {
+      "id": "e012e77b-1921-4e7b-b53b-765950c45fe8",
+      "nombre": "presi",
+      "precio": 12345,
+      "descripcion": "mientes, me haces daño y luego te arrepientes"
+    }
+  ]
+}

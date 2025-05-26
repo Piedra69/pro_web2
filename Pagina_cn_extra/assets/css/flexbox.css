@@ -1,0 +1,212 @@
+/* Paleta de Colores ROOT */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --color-FondoCuerpo: #009bdf;
+    --color-FondoCuerpo2: #c96bee;
+    --color-Texto: #ffffff;
+    --color-Subtitulos: #05366e;
+	--color-Titulos: #000000;
+    --color-Fondo: #ffea00;
+    --color-botones: #ed0080; 
+    --color-menu: #891f9e;
+    --color-descripciones: #512992; 
+    --color-cajitas: #09445e;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+main{
+    color: var(--color-Texto);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-FondoCuerpo);
+    font-family: var(--fuente-montserrat);
+}
+
+/* CLASES DEL MAIN */
+
+/* Clase Nosotros */
+
+.nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* ESTILOS */
+    background-color: var(--color-FondoCuerpo2);
+}
+
+.nosotros__contenido{
+    /* ESTILOS */
+    padding: 20px;
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosotros__titulo{
+    /* ESTILOS */
+    text-align: center;
+    margin: 30px;
+    padding: 15px;
+    color: var(--color-Subtitulos);
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: var(--color-Fondo);
+    border-radius: 20px;
+    border: 3px solid var(--color-descripciones);
+}
+
+.nosotros__texto{
+    /* ESTILOS */
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: var(--color-descripciones);
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid var(--color-descripciones);
+}
+
+.nosotros__imagen{
+    /* ESTILOS */
+    padding: 10px;
+    height: 20rem;
+    width: 25rem;
+    margin: 50px;
+    border-radius: 50px;
+}
+
+/* Clase Producto */
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.producto__titulo{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-Subtitulos);
+    margin: 20px;
+    background-color: var(--color-Fondo);
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid var(--color-descripciones);
+}
+
+.producto__card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    padding: 25px;
+    margin: 30px;
+    background-color: var(--color-cajitas);
+    border-radius: 15px;
+    border: 3px solid var(--color-Texto);
+}
+
+.card__titulo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 15px;
+    margin: 10px;
+}
+
+.card__precio{
+    margin: 10px;
+}
+
+.card__desc{
+    margin: 10px;
+}
+
+.card__boton{
+    margin: 10px;
+}
+
+/* Clase Contacto */
+
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    /* ESTILOS */
+    background-color: var(--color-FondoCuerpo2);
+}
+
+.contacto__titulo{
+    color: var(--color-Subtitulos);
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+    background-color: var(--color-Fondo);
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid var(--color-descripciones);
+}
+
+.contacto__descripcion{
+    margin: 20px;
+    background-color: var(--color-descripciones);
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid var(--color-descripciones);
+}
+
+.contacto__img{
+    padding: 10px;
+    height: 20rem;
+    width: 25rem;
+    margin: 50px;
+    border-radius: 50px;
+}
+
+/* FOOTER */
+
+.footer{
+    /* FLEXBOX */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* ESTILOS */
+    font-family: var(--fuente-montserrat);
+    padding: 20px;
+    background-color: var(--color-Fondo);
+    color: var(--color-menu);
+}
+
+.footer__nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer__img{
+    height: 8rem;
+    width: 12rem;
+}
+
+.footer__link{
+    /* ESTILOS */
+    font-size: 1.2rem;
+    border-radius: 0px 20px 0px 20px;
+    background-color: var(--color-menu);
+    padding: 11px;
+    color: var(--color-Texto);
+    margin: 18px;
+}

@@ -1,0 +1,135 @@
+/* REGISTRO DE PRODUCTOS - RESPONSIVIDAD */
+@media (max-width: 768px) {
+    .registro {
+        padding: 1.5rem;
+        border-radius: 10px;
+    }
+    
+    .registro__titulo {
+        font-size: 1.7rem;
+    }
+    
+    .registro__input {
+        padding: 0.7rem 0.9rem;
+    }
+    
+    .registro__imagen-preview {
+        height: 180px;
+    }
+}
+
+@media (max-width: 576px) {
+    .registro {
+        padding: 1rem;
+        border-radius: 8px;
+    }
+    
+    .registro__titulo {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .registro__formulario {
+        gap: 1.2rem;
+    }
+    
+    .registro__imagen-label {
+        padding: 0.7rem 1rem;
+    }
+    
+    .registro__imagen-preview {
+        height: 150px;
+    }
+    
+    .registro__boton {
+        padding: 0.9rem 1.2rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .registro__imagen-label span {
+        font-size: 0.9rem;
+    }
+    
+    .registro__imagen-preview {
+        height: 120px;
+    }
+    
+    .registro__imagen-preview i {
+        font-size: 2rem;
+    }
+}
+
+
+/* PRODUCTOS - RESPONSIVIDAD DE CARDS */
+@media (max-width: 992px) {
+    .productos__grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .productos__card-content {
+        padding: 1.2rem;
+    }
+    
+    .productos__card-nombre {
+        font-size: 1.2rem;
+    }
+    
+    .productos__card-precio {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .productos__grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1.2rem;
+    }
+    
+    .productos__card-actions {
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+    
+    .productos__mensaje {
+        padding: 2rem;
+    }
+    
+    .productos__mensaje i {
+        font-size: 2.5rem;
+    }
+    
+    .productos__mensaje p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .productos__grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .productos__card-content {
+        padding: 1rem;
+    }
+    
+    .productos__card-btn {
+        padding: 0.5rem;
+        font-size: 0.85rem;
+    }
+    
+    .productos__mensaje {
+        padding: 1.5rem;
+    }
+    
+    .productos__mensaje i {
+        font-size: 2rem;
+    }
+    
+    .productos__mensaje p {
+        font-size: 1rem;
+    }
+}

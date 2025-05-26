@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "titulo": "Nuevo Post Creado",
+      "descripcion": "CONTENIDO",
+      "fecha": "2025-03-27",
+      "nombre": "Presi",
+      "valorEntero": 21
+    },
+    {
+      "id": "2",
+      "titulo": "Nuevo Post Creado",
+      "descripcion": "CONTENIDO",
+      "fecha": "2025-03-27",
+      "nombre": "Angi",
+      "valorEntero": 21
+    },
+    {
+      "id": "4",
+      "titulo": "examen",
+      "descripcion": "examen",
+      "fecha": "2025-04-10",
+      "nombre": "examen",
+      "valorEntero": 12
+    },
+    {
+      "id": "5",
+      "titulo": "asdasd",
+      "descripcion": "asdasdas",
+      "fecha": "2025-04-10",
+      "nombre": "dasda",
+      "valorEntero": 12
+    },
+    {
+      "id": "6",
+      "titulo": "asdasd",
+      "descripcion": "asdasdas",
+      "fecha": "2025-04-10",
+      "nombre": "dasda",
+      "valorEntero": 12
+    },
+    {
+      "id": "7",
+      "titulo": "asdas",
+      "descripcion": "asdasda",
+      "fecha": "2025-04-10",
+      "nombre": "sdasda",
+      "valorEntero": 12
+    }
+  ]
+}

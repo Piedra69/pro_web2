@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ALERTSS */
+
+@media (max-width: 576px) {
+    .custom-alert__content {
+        padding: 1.5rem;
+        border-radius: 10px;
+    }
+    
+    .custom-alert__icon {
+        font-size: 3rem;
+    }
+    
+    .custom-alert__message {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .custom-alert__button {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .custom-alert__content {
+        padding: 1.2rem;
+    }
+    
+    .custom-alert__icon {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Header */
+
+.header__caja {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__lista {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+.header__item {
+    padding: 0.5rem;
+}
+
+/* FOOTER RESPONSIVO */
+
+.footer__redes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}

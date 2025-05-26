@@ -1,0 +1,67 @@
+/* Paleta de Colores ROOT */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --color-FondoCuerpo: #009bdf;
+    --color-FondoCuerpo2: #c96bee;
+    --color-Texto: #ffffff;
+    --color-Subtitulos: #05366e;
+	--color-Titulos: #000000;
+    --color-Fondo: #ffea00;
+    --color-botones: #ed0080; 
+    --color-menu: #891f9e;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+.pagina{
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* ESTILOS */
+    padding: 2rem;
+    min-height: 50vh;
+}
+.pagina__titulo{
+    /* ESTILOS */
+    font-family: var(--fuente-krona);
+    font-size: 3rem;
+    font-weight: 500;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: var(--color-Titulos);
+}
+.pagina__desc{
+
+    /* ESTILOS */
+    font-family: var(--fuente-montserrat);
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin: 0 auto 2.5rem;
+}
+.pagina__boton{
+    /* ESTILOS */
+    font-family: var(--fuente-montserrat);
+    text-align: center;
+    width: 18rem;
+    padding: 1rem;
+    border: var(--color-botones);
+    border-radius: 30px;
+    background-color: var(--color-botones);
+    color: var(--color-Texto);
+}
+
+/* @media screen and (min-width:750px){
+    .pagina{
+        background-image: url('../img/port1.jpg');
+        background-size: cover;
+        padding-top: 8rem;
+    }
+} */

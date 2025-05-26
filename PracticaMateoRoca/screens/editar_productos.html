@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../base/style.css">
+    <link rel="stylesheet" href="../base/responsividad.css">
+    <link rel="stylesheet" href="../css/registrarProductos.css">
+    <link rel="stylesheet" href="../css/registrarProductosResponsividad.css">
+    <!-- LINK DE LOS ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__caja">
+            <a href="https://hotwheels.com" target="_blank" rel="noopener noreferrer">
+                <img class="header__img" src="../img/steamboatHTW.jpg" alt="steamboatHTW">
+            </a>
+            <h1 class="header__titulo" id="estiloNeo">Productos</h1>
+            <nav class="header__nav">
+                <ul class="header__lista">
+                    <li class="header__item"><a href="../index.html" class="header__link">Inicio</a></li>
+                    <li class="header__item"><a href="productos.html" class="header__link">Productos</a></li>
+                    <li class="header__item"><a href="proveedores.html" class="header__link">Proveedores</a></li>
+                    <li class="header__item"><a href="eventos.html" class="header__link">Eventos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main registrarProductos">
+        <section class="registro">
+            <h2 class="registro__titulo">Registrar Nuevo Autito</h2>
+            
+            <form class="registro__formulario" data-formulario-autos>
+                <div class="registro__grupo">
+                    <label for="nombre" class="registro__label">Nombre del Autito</label>
+                    <input type="text" 
+                           id="nombre" 
+                           class="registro__input" 
+                           data-input-nombre
+                           maxlength="50"
+                           required>
+                    <span class="registro__contador" data-contador-nombre>0/50</span>
+                </div>
+                
+                <div class="registro__grupo">
+                    <label for="precio" class="registro__label">Precio (Bs)</label>
+                    <input type="number" 
+                           id="precio" 
+                           class="registro__input" 
+                           data-input-precio
+                           inputmode="decimal"
+                           pattern="^\d+(\.\d{1,2})?$"
+                           placeholder="00.00"
+                           required>
+                    <span class="registro__ayuda">Ej: 25.99 (solo números con 2 decimales)</span>
+                </div>
+                
+                <div class="registro__grupo">
+                    <label for="caja" class="registro__label">Caja/Serie</label>
+                    <input type="text" 
+                           id="caja" 
+                           class="registro__input" 
+                           data-input-caja
+                           maxlength="10"
+                           required>
+                    <span class="registro__contador" data-contador-caja>0/10</span>
+                </div>
+                
+                <div class="registro__grupo">
+                    <label for="gestion" class="registro__label">Gestión/Año</label>
+                    <input type="number" 
+                           id="gestion" 
+                           class="registro__input" 
+                           data-input-gestion
+                           min="1968" 
+                           max="2025"
+                           step="1"
+                           inputmode="numeric"
+                           pattern="\d+"
+                           value="2025"
+                           required>
+                </div>
+                
+                <script>
+                    const inputGestion = document.getElementById('gestion');
+                    inputGestion.addEventListener('input', () => {
+                        inputGestion.value = inputGestion.value.replace(/[^0-9]/g, '');
+                    });
+                </script>
+                
+                <div class="registro__grupo">
+                    <label for="color" class="registro__label">Color Principal</label>
+                    <input type="text" 
+                           id="color" 
+                           class="registro__input" 
+                           data-input-color
+                           maxlength="30"
+                           required>
+                    <span class="registro__contador" data-contador-color>0/30</span>
+                </div>
+                
+                <!--
+                <div class="registro__grupo">
+                    <label for="imagen" class="registro__label">Imagen del Autito</label>
+                    <div class="registro__imagen-container">
+                        <input type="file" 
+                               id="imagen" 
+                               class="registro__imagen-input" 
+                               data-input-imagen
+                               accept="image/*"
+                               required>
+                        <label for="imagen" class="registro__imagen-label">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <span>Seleccionar imagen</span>
+                        </label>
+                        <div class="registro__imagen-preview" data-imagen-preview>
+                            <i class="fas fa-car-side"></i>
+                            <span>Vista previa aparecerá aquí</span>
+                        </div>
+                    </div>
+                </div>
+                -->
+                
+                <button type="submit" class="registro__boton" data-editar>
+                    <i class="fas fa-save"></i>
+                    <span>Editar Autito</span>
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <h2 class="footer__titulo">Contáctanos</h2>
+            <div class="footer__redes">
+                <a href="#" class="footer__link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="footer__link" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#" class="footer__link" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="footer__link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="footer__link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="footer__link" aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="#" class="footer__link" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" class="footer__link" aria-label="Discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </div>
+            <div class="footer__derechos">
+                <p>&copy; 2025 IGNACIO ADRIAN LAYME DELGADO. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../service/actualizar_autito.js"></script>
+    
+</body>
+
+</html>

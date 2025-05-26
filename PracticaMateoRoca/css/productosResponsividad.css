@@ -1,0 +1,47 @@
+/* PRODUCTOS - RESPONSIVIDAD */
+@media (max-width: 992px) {
+    .productos__control {
+        justify-content: center;
+    }
+    
+    .productos__buscador {
+        order: 1;
+        min-width: 100%;
+    }
+    
+    .productos__agregar {
+        order: 2;
+    }
+    
+    .productos__logo {
+        order: 3;
+        flex: 0 0 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .productos__grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .productos__agregar {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .productos__logo {
+        flex: 0 0 100px;
+    }
+    
+    .productos__mensaje {
+        padding: 2rem 1rem;
+    }
+    
+    .productos__mensaje i {
+        font-size: 2rem;
+    }
+    
+    .productos__mensaje p {
+        font-size: 1rem;
+    }
+}

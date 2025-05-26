@@ -1,0 +1,122 @@
+/* MAIN RESPONSIVIDAD */
+@media (max-width: 1200px) {
+    .pista {
+        height: clamp(300px, 40vw, 500px);
+    }
+    
+    .auto {
+        width: clamp(80px, 10vw, 120px);
+        height: clamp(40px, 5vw, 60px);
+    }
+    
+    .auto__techo {
+        width: clamp(40px, 5vw, 60px);
+        height: clamp(15px, 2vw, 25px);
+        left: clamp(20px, 2.5vw, 30px);
+    }
+    
+    .auto__cabina {
+        height: clamp(20px, 2.5vw, 30px);
+    }
+    
+    .auto__rueda {
+        width: clamp(14px, 1.8vw, 20px);
+        height: clamp(14px, 1.8vw, 20px);
+        bottom: clamp(3px, 0.5vw, 5px);
+    }
+    
+    .auto__rueda--delantera {
+        right: clamp(10px, 1.2vw, 15px);
+    }
+    
+    .auto__rueda--trasera {
+        left: clamp(10px, 1.2vw, 15px);
+    }
+    
+    .auto__parabrisas {
+        width: clamp(20px, 2.5vw, 30px);
+        height: clamp(10px, 1.2vw, 15px);
+        left: clamp(40px, 5vw, 60px);
+        top: clamp(10px, 1.2vw, 15px);
+    }
+    
+    .auto__spoiler {
+        width: clamp(25px, 3.3vw, 40px);
+        left: clamp(50px, 6.6vw, 80px);
+    }
+}
+
+@media (max-width: 768px) {
+    .pista {
+        height: clamp(250px, 50vh, 400px);
+    }
+    
+    .auto {
+        width: clamp(60px, 12vw, 80px);
+        height: clamp(30px, 6vw, 40px);
+    }
+    
+    .auto__luces {
+        width: clamp(6px, 1.2vw, 8px);
+        height: clamp(3px, 0.6vw, 4px);
+        bottom: clamp(12px, 2.5vw, 15px);
+    }
+    
+    .auto__escape {
+        width: clamp(5px, 1vw, 6px);
+        height: clamp(3px, 0.6vw, 4px);
+    }
+    
+    .auto__rueda::after {
+        width: clamp(3px, 0.8vw, 5px);
+        height: clamp(3px, 0.8vw, 5px);
+    }
+}
+
+@media (max-width: 480px) {
+    .pista {
+        height: clamp(200px, 45vh, 300px);
+        border-radius: 10px;
+    }
+    
+    .pista__linea {
+        width: 4px;
+        background-size: 20px 20px;
+    }
+    
+    .auto {
+        width: clamp(50px, 15vw, 70px);
+        height: clamp(25px, 7.5vw, 35px);
+    }
+    
+    .auto__spoiler {
+        display: none;
+    }
+    
+    .auto__parabrisas {
+        left: clamp(25px, 8vw, 40px);
+    }
+
+    .auto__techo {
+        border-radius: 3px 3px 0 0;
+    }
+    
+    .auto__cabina {
+        border-radius: 5px 8px 3px 3px;
+    }
+}
+
+/* ANIMACIONES RESPONSIVAS */
+@media (max-width: 768px) {
+    @keyframes carrera-rojo {
+        0% { left: -100px; transform: rotateY(0deg); }
+        50% { left: calc(100% + 30px); }
+        100% { left: -100px; }
+    }
+    
+    @keyframes carrera-azul {
+        0% { left: -100px; transform: rotateY(0deg); }
+        50% { left: calc(100% + 30px); }
+        100% { left: -100px; }
+    }
+}

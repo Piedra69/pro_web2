@@ -1,0 +1,61 @@
+/* Paleta de Colores ROOT */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --color-FondoCuerpo: #009bdf;
+    --color-FondoCuerpo2: #c96bee;
+    --color-Texto: #ffffff;
+    --color-Subtitulos: #05366e;
+	--color-Titulos: #000000;
+    --color-Fondo: #ffea00;
+    --color-botones: #ed0080; 
+    --color-menu: #891f9e;
+    --color-descripciones: #512992; 
+    --color-cajitas: #09445e;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+.head{
+    /* FLEXBOX */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    /* ESTILOS */
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color:var(--color-Fondo);
+    color: var(--color-menu);
+}
+.head__logo{
+    /* ESTILOS */
+    height: 10rem;
+    width: 14rem;
+    margin: 10px;
+}
+
+.head_nav, ul{
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* ESTILOS */
+    text-align: center;
+}
+.head__link{
+    /* ESTILOS */
+    font-size: 1.4rem;
+    font-family: var(--fuente-montserrat);
+    display: inline-block;
+    margin: 30px;
+    border-radius: 0px 20px 0px 20px;
+    background-color: var(--color-menu);
+    padding: 11px;
+    color: var(--color-Texto);
+}
